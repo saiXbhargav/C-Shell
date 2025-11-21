@@ -1,0 +1,7 @@
+pwd
+echo hello world    test
+history
+cd ..
+pwd
+cd -
+exit

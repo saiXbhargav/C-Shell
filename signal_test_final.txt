@@ -1,0 +1,16 @@
+echo ===== Signal Handling Test =====
+echo
+echo Test 1: Basic shell operation
+pwd
+echo
+echo Test 2: Foreground command that can be interrupted
+echo About to run timeout command - try pressing Ctrl+C
+timeout /T 5
+echo
+echo Test 3: Background command - Ctrl+C should not affect it
+timeout /T 3 &
+echo Background process started
+echo
+echo Test 4: Press Ctrl+D on empty line to exit shell cleanly
+echo
+echo All tests ready - shell should handle signals properly now!

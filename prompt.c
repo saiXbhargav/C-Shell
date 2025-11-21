@@ -15,7 +15,7 @@
 #include <limits.h>
 #endif
 
-char shell_home[256];  // Global for hop
+extern char shell_home[256];  // Global for hop
 
 void initialize_prompt() {
     getcwd(shell_home, sizeof(shell_home));//get current working directory

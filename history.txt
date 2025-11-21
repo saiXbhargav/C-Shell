@@ -1,0 +1,20 @@
+cat file.txt
+wc file.txt
+sleep 3
+sleep 3 &
+sleep 30 &
+ps aux | grep sleep
+grep "hello" <input.txt> output.txt
+clear
+echo hello > output.txt
+grep "pattern" < file.txt > result.txt
+grep "test" <input.txt>out.txt
+echo hello > "file with spaces.txt"
+sleep 5 & echo done
+sleep 5 echo done
+sleep 5
+sleep 20 &
+echo ""
+echo very long command with many arguments that might exceed buffer size and cause issues
+echo "hello; world"
+cat nonexistent.txt

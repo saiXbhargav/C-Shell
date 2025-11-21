@@ -1,0 +1,4 @@
+cd arg1 arg2
+cd
+pwd
+exit

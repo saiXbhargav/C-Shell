@@ -1,0 +1,3 @@
+echo first session
+pwd
+exit

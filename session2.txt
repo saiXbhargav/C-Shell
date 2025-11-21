@@ -1,0 +1,3 @@
+echo second session
+history
+exit

@@ -1,0 +1,5 @@
+echo Testing signal handling in shell
+echo Type 'timeout 10' to test Ctrl+C interrupt
+echo Type 'dir' to test normal execution
+echo Press Ctrl+D on empty line to exit cleanly
+echo Press Ctrl+C during command execution to interrupt

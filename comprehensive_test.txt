@@ -1,0 +1,28 @@
+echo Testing all shell features:
+echo
+echo === Built-in Commands ===
+pwd
+echo hello    world    with    spaces
+history
+cd ..
+pwd
+cd ~
+echo
+echo === External Commands ===
+dir
+echo
+echo === Background Execution ===
+echo Background command: timeout /T 2
+timeout /T 2 &
+echo
+echo === I/O Redirection (Windows) ===
+echo hello world > test_output.txt
+type test_output.txt
+del test_output.txt
+echo
+echo === Signal Handling ===
+echo Try pressing Ctrl+C during next command:
+timeout /T 5
+echo
+echo All tests completed!
+exit
